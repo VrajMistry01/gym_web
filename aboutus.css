@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Merriweather:wght@300&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --primary: #933ded;
+    --dark: #232323;
+    --pure: #fff;
+    --smoke: whitesmoke;
+    --dark-gray: #999;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background: var(--dark);
+    color: var(--pure);
+}
+
+.container {
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    border-radius: 50%;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.nav-wrapper ul.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-wrapper ul.nav-list {
+    color: var(--pure);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.nav-wrapper ul.nav-list li {
+    margin-left: 30px;
+    padding: 20px 0;
+}
+
+ul.nav-list li a {
+    text-decoration: none;
+    color: yellow;
+    position: relative;
+}
+
+ul.nav-list li a:hover {
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    transition: all 0.3s;
+}
+
+a:active,
+a:focus {
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    transition: all 0.3s;
+    background-color: transparent;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    margin: 0 100px;
+    padding: 2%;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+main h1 {
+    color: #933ded;
+    padding: 5%;
+}
+
+#image {
+    width: 500px;
+    height: 200px;
+    margin: 5%;
+    border-radius: 5%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px yellow;
+}
+
+p {
+    margin: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+.hours {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ohours {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: #933ded;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hours:hover,
+.ohours:hover {
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px yellow;
+}
